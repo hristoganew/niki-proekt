@@ -1,0 +1,159 @@
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 38px;
+	background-color: #d0d0d0;
+
+}	
+
+.clearfix{
+	clear: both;
+	display: block;
+}
+
+.navigation{
+	width: 100%;
+	background-color: #333;
+}
+
+.navigation ul{
+	width: 970px;
+	margin: 0 auto;
+	list-style: none;
+	outline-style: none;
+}
+
+.navigation ul li{
+	padding: 0 28px;
+	display: inline;
+}
+
+.navigation ul li a{
+	color: white;
+	text-decoration: none;
+}
+
+.navigation a:hover {
+  background-color: #c5bcbc;
+  color: black;
+}
+
+.navigation a.active {
+  background-color: #bb3e3e;
+  color: white;
+}
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #333;
+   color: white;
+   text-align: center;
+   font-size: 18px;
+}
+
+.footer div{
+   width: 970px;
+   margin: 0 auto;
+}
+
+.footer p{
+   margin: 10px 20px;  
+}
+
+.content{
+    width: 970px;
+    margin: 0 auto;
+    height: 980px;
+    background-color: white;
+    text-align: center;
+}
+
+.portrait img{
+	margin: 50px 0;
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+}
+
+.ordered-list{
+	margin: 50px 0;
+	font-size: 32px;
+	text-align: center;
+}
+
+.ordered-list ol{
+	width: 600px;
+	margin: 0 auto;
+}
+
+.index-content{
+    width: 970px;
+    margin: 0 auto;
+    height: 980px;
+    background-color: white;
+    text-align: center;
+}
+
+.index-content img{
+	margin: 40px;
+    width: 650px;
+    height: 350px;
+}
+
+.index-content .floater{
+	padding: 64px 0;
+	animation-name: floating;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+    from { transform: translate(0,  0px); }
+    65%  { transform: translate(0, 15px); }
+    to   { transform: translate(0, -0px); }    
+}
+
+#toGallery{
+	margin: 50px 0;
+    text-decoration: none;
+    font-family: 'Black Han Sans', sans-serif;
+    font-style: italic;
+    color: #d44646;
+    font-weight: bold;
+}
+
+#toGallery:hover{
+	padding: 50px;
+    text-decoration: none;
+    font-family: 'Black Han Sans', sans-serif;
+    font-style: italic;
+    background-color: #c5bcbc;
+  	color: black;
+    font-weight: bold;
+}
+
+.content table {
+	border:2px solid black;
+	padding: 50px 0;
+	width: 100%;
+	height: 100%;
+	font-size: 32px;
+}
+
+.content th, td {
+	border:2px solid black;
+}
+
+.content table img{
+	width: 200px;
+	height: 200px;
+	border-radius: 20px;
+}
+
+h2 {
+	margin: 0;
+	padding: 50px 0 0 0;
+}
